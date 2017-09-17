@@ -1,0 +1,11 @@
+{
+  "name": "webcookies",
+  "version": "1.0.0",
+  "description": "\"Webcookies through examples\"",
+  "main": "index.js",
+  "author": "\"Omer G\"",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
