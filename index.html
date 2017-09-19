@@ -13,7 +13,7 @@
         const name = "username" + "=";
         const cookie_array = document.cookie.split(';');
         for(let i = 0; i < cookie_array.length; i++) {
-            let c = cookie_array[i];
+            let c = cookie_array[i].trim();
             if (c.indexOf(name) == 0) {
                 return c.substring(name.length, c.length);
             }
